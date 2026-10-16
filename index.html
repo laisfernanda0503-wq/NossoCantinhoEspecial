@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="icon" type="image/jpg" href="img/theu.jpg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para o meu amor</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  <div class="background-hearts" id="hearts">
+  <div class="heart-cloud" id="heartCloud"></div>
+</div>
+
+  <header>
+    <a href="#" class="logo">para você <span>♥</span></a>
+    <span class="date">30.10 ♡</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">UMA SURPRESA FEITA COM AMOR</p>
+      <h1>Feliz aniversário,<br><span>meu amor.</span></h1>
+      <p class="intro">
+        Preparei um cantinho especial.
+        Cada detalhe tem um pouquinho de nós.
+      </p>
+      <button id="startBtn" class="primary-btn">
+        Descobrir minha surpresa ♥
+      </button>
+      <div class="scroll-hint">↓ tem mais coisinhas aqui</div>
+    </section>
+
+    <section class="surprises" id="surprises">
+      <p class="eyebrow">UM PEDACINHO DE NÓS</p>
+      <h2>Escolha uma surpresa</h2>
+
+      <div class="cards">
+        <button class="card" data-open="letter">
+          <span class="card-icon"></span>
+          <strong>Uma cartinha</strong>
+          <span>Tem algo que quero te dizer...</span>
+          <span class="card-link">Abrir →</span>
+        </button>
+
+        <button class="card" data-open="reasons">
+          <span class="card-icon"></span>
+          <strong>Por que você?</strong>
+          <span>Alguns motivos entre tantos.</span>
+          <span class="card-link">Descobrir →</span>
+        </button>
+
+        <button class="card" data-open="secret">
+          <span class="card-icon"></span>
+          <strong>Um segredo</strong>
+          <span>Será que você consegue descobrir?</span>
+          <span class="card-link">Desbloquear →</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="memory">
+      <span class="big-heart">♥</span>
+      <p class="eyebrow">MEU LUGAR FAVORITO</p>
+      <h2>É onde você está.</h2>
+      <p>
+        Entre tantos lugares e pessoas no mundo,
+        eu fico feliz por ter encontrado você.
+      </p>
+      <p class="small-note">
+        Aqui depois você pode colocar uma foto de vocês dois.
+      </p>
+<div class="photo-placeholder">
+  <img src="img/nos.jpg" alt="Uma lembrança nossa">
+</div>   
+ </section>
+
+    <section class="final">
+      <p class="eyebrow">E NÃO ACABOU...</p>
+      <h2>Feliz vida, meu bem. </h2>
+      <p>Que seu novo ciclo seja tão especial quanto você é pra mim.</p>
+      <button class="primary-btn" id="celebrateBtn">
+        Comemorar! 🎉
+      </button>
+    </section>
+  </main>
+
+  <footer>feito com amor, especialmente pra você ♥</footer>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="close-btn" id="closeModal" aria-label="Fechar">×</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  
+  <div id="toast" class="toast">❤️ Você desbloqueou um carinho!</div>
+<script src="script.js"></script>
+
+</body>
+</html>
