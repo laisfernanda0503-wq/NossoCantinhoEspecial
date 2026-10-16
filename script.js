@@ -12,7 +12,7 @@ let reasonsFound = 0;
 const reasons = [
   'Porque você consegue melhorar meu dia.',
   'Porque eu amo seu jeitinho, até nas pequenas coisas.',
-  'Porque estar com você faz os momentos simples valerem muito.',
+  'Porque estar com você faz os momentos simples valerem muito (me Estressa muito também mas é meu Grude ).',
   'Porque eu posso ser eu mesma ao seu lado.',
   'Porque ainda quero viver muitas histórias com você.'
 ];
@@ -63,7 +63,7 @@ document.querySelectorAll('[data-open]').forEach(card => {
           Quero continuar construindo memórias lindas
           ao seu lado. Você é muito especial pra mim.
         </p>
-        <p>Com todo meu amor. ❤️</p>
+        <p>Com todo meu amor (Ass. Batman). </p>
       `);
     }
 
@@ -78,20 +78,20 @@ document.querySelectorAll('[data-open]').forEach(card => {
         <h2>Missão secreta</h2>
         <p>Qual é a máquina de quatro rodas que você ama?</p>
         <button class="primary-btn" id="golBtn">
-          Gol G6 🚗
+          Meu Golzinho 
         </button>
       `);
 
       document.querySelector('#golBtn').addEventListener('click', () => {
         openModal(`
-          <div style="font-size:3rem">🚗❤️</div>
+          <div style="font-size:3rem"></div>
           <h2>Segredo desbloqueado!</h2>
           <p>
             Eu sei que tem um Gol G6 ocupando
             um espacinho no seu coração...
             mas espero ter conquistado meu lugar também. KKKK ❤️
           </p>
-          <p>Feliz aniversário, meu piloto favorito!</p>
+          <p>Feliz aniversário, Gol tem um Piloto e tanto</p>
         `);
         burstHearts(25);
       });
